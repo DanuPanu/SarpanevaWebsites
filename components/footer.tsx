@@ -3,6 +3,10 @@ import Link from 'next/link'
 
 const links = [
     {
+        title: 'Etusivu',
+        href: '/minusta',
+    },
+    {
         title: 'Minusta',
         href: '/minusta',
     },

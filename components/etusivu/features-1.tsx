@@ -7,17 +7,17 @@ export default function Features() {
         <section className="bg-zinc-50 py-16 md:py-32 dark:bg-transparent">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Rakennettu tarpeitasi varten</h2>
-                    <p className="mt-4">Keskity siihen, mikä on tärkeintä - minä huolehdin lopuista. Verkkosivut, jotka mukautuvat yrityksesi tarpeisiin ja vievät brändisi uudelle tasolle.</p>
+                    <h2 className="text-balance text-3xl md:text-4xl font-medium 2xl:text-5xl">Rakennettu tarpeitasi varten</h2>
+                    <p className="mt-4 text-sm md:text-base">Keskity siihen, mikä on tärkeintä - minä huolehdin lopuista. Verkkosivut, jotka mukautuvat yrityksesi tarpeisiin ja vievät brändisi uudelle tasolle.</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
                     <Card className="group shadow-zinc-950/5">
-                        <CardHeader className="pb-3">
+                        <CardHeader>
                             <CardDecorator>
                                 <Settings2 className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium text-lg">Täysin räätälöitävissä</h3>
+                            <h3 className="font-medium text-lg">Täysin räätälöitävissä</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -26,30 +26,30 @@ export default function Features() {
                     </Card>
 
                     <Card className="group shadow-zinc-950/5">
-                        <CardHeader className="pb-3">
+                        <CardHeader>
                             <CardDecorator>
                                 <Sparkles className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium text-lg">Valinnan vapaus</h3>
+                            <h3 className="font-medium text-lg">Valinnan vapaus</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">Päätät täysin verkkosivustosi sisällöstä, päivityksistä ja ulkoasusta sillä teen sivut alusta loppuun itse.</p>
+                            <p className="text-sm">Päätät täysin verkkosivustosi sisällöstä, päivityksistä ja ulkoasusta sillä teen sivut alusta loppuun itse.</p>
                         </CardContent>
                     </Card>
 
                     <Card className="group shadow-zinc-950/5">
-                        <CardHeader className="pb-3">
+                        <CardHeader>
                             <CardDecorator>
                                 <Zap className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium text-lg">Supernopea suorituskyky</h3>
+                            <h3 className="font-medium text-lg">Supernopea suorituskyky</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">Varmistan, että verkkosivustosi latautuu salamannopeasti käyttäen Next.js:ää, joka optimoi sivustosi suorituskyvyn. Tämä takaa nopean käyttökokemuksen ja vähentää odotusaikoja, mikä parantaa asiakastyytyväisyyttä ja hakukonesijoituksia.</p>
+                            <p className="text-sm">Varmistan, että verkkosivustosi latautuu salamannopeasti käyttäen Next.js:ää, joka optimoi sivustosi suorituskyvyn. Tämä takaa nopean käyttökokemuksen ja vähentää odotusaikoja, mikä parantaa asiakastyytyväisyyttä ja hakukonesijoituksia.</p>
                         </CardContent>
                     </Card>
                 </div>

@@ -7,6 +7,7 @@ import React from 'react'
 import { cn } from '@/lib/utils'
 
 const menuItems = [
+    { name: 'Etusivu', href: '/' },
     { name: 'Minusta', href: '/minusta' },
     { name: 'Hinnasto', href: '/hinnasto' },
     { name: 'FAQ', href: '/faq' },
@@ -17,6 +18,10 @@ export const HeroHeader = () => {
     const [menuState, setMenuState] = React.useState(false)
     const [isScrolled, setIsScrolled] = React.useState(false)
     const pathname = usePathname()
+
+    const klikhandler = () => {
+        console.log(menuState)
+    }
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -51,7 +56,7 @@ export const HeroHeader = () => {
                         </div>
 
                         <div className="absolute inset-0 m-auto hidden size-fit lg:block">
-                            <ul className="flex gap-8 text-lg">
+                            <ul className="flex gap-8 text-sm 2xl:text-lg">
                                 {menuItems.map((item, index) => (
                                     <li key={index}>
                                         <Link
@@ -73,6 +78,7 @@ export const HeroHeader = () => {
                                     {menuItems.map((item, index) => (
                                         <li key={index}>
                                             <Link
+                                                onClick={() => setMenuState(false)}
                                                 href={item.href}
                                                 className={cn(
                                                     'text-muted-foreground hover:text-accent-foreground block duration-150',

@@ -6,10 +6,10 @@ import { Card } from '@/components/ui/card'
 
 export default function ContactSection() {
     return (
-        <section className="py-32">
+        <section id="contact-section" className="py-32">
             <div className="mx-auto max-w-3xl px-8 lg:px-0">
-                <h1 className="text-center text-4xl font-semibold lg:text-5xl">Ota yhteyttä</h1>
-                <p className="mt-4 text-center">Keskustellaan, miten voimme auttaa sinua luomaan juuri tarpeisiisi sopivan verkkosivun.</p>
+                <h1 className="text-center text-3xl md:text-4xl font-medium 2xl:text-5xl">Ota yhteyttä</h1>
+                <p className="mt-4 text-center text-sm xl:text-md">Keskustellaan, miten voimme auttaa sinua luomaan juuri tarpeisiisi sopivan verkkosivun.</p>
 
                 <Card className="mx-auto mt-12 max-w-lg p-8 shadow-md sm:p-16">
                     <div>
