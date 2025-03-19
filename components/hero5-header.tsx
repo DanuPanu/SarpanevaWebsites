@@ -1,21 +1,22 @@
 'use client'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { Logo } from './logo'
 import { Menu, X } from 'lucide-react'
-import { Button } from '@/components/ui/button'
 import React from 'react'
 import { cn } from '@/lib/utils'
 
 const menuItems = [
-    { name: 'Features', href: '#link' },
-    { name: 'Solution', href: '#link' },
-    { name: 'Pricing', href: '#link' },
-    { name: 'About', href: '#link' },
+    { name: 'Minusta', href: '/minusta' },
+    { name: 'Hinnasto', href: '/hinnasto' },
+    { name: 'FAQ', href: '/faq' },
+    { name: 'Yhteystiedot', href: '/yhteystiedot' },
 ]
 
 export const HeroHeader = () => {
     const [menuState, setMenuState] = React.useState(false)
     const [isScrolled, setIsScrolled] = React.useState(false)
+    const pathname = usePathname()
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -24,6 +25,7 @@ export const HeroHeader = () => {
         window.addEventListener('scroll', handleScroll)
         return () => window.removeEventListener('scroll', handleScroll)
     }, [])
+
     return (
         <header>
             <nav
@@ -54,7 +56,10 @@ export const HeroHeader = () => {
                                     <li key={index}>
                                         <Link
                                             href={item.href}
-                                            className="text-muted-foreground hover:text-accent-foreground block duration-150">
+                                            className={cn(
+                                                'text-muted-foreground hover:text-accent-foreground block duration-150',
+                                                pathname === item.href && 'text-accent-foreground font-bold'
+                                            )}>
                                             <span>{item.name}</span>
                                         </Link>
                                     </li>
@@ -69,7 +74,10 @@ export const HeroHeader = () => {
                                         <li key={index}>
                                             <Link
                                                 href={item.href}
-                                                className="text-muted-foreground hover:text-accent-foreground block duration-150">
+                                                className={cn(
+                                                    'text-muted-foreground hover:text-accent-foreground block duration-150',
+                                                    pathname === item.href && 'text-accent-foreground font-bold'
+                                                )}>
                                                 <span>{item.name}</span>
                                             </Link>
                                         </li>
