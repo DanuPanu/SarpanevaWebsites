@@ -1,5 +1,6 @@
 'use client';
-import { ReactNode, JSX } from 'react';
+
+import { ReactNode } from 'react';
 import { motion, Variants } from 'motion/react';
 import React from 'react';
 
