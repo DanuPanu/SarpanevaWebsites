@@ -48,6 +48,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="w5c4H5nZV57UHsQg2pD4QhsEZUjIND5KOeeKUbG-Wps" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
