@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sarpanevawebsites.com
+
+# Sitemaps
+Sitemap: https://sarpanevawebsites.com/sitemap.xml
