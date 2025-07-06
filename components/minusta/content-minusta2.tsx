@@ -11,7 +11,7 @@ export default function ContentSectionMinusta2() {
                         <p className="text-muted-foreground text-sm xl:text-md">
                         Olen aina ollut kiinnostunut teknologiasta ja visuaalisesta suunnittelusta. Aluksi tein verkkosivuja harrastuksena, mutta pian huomasin, että voin auttaa muita tekemään parempia <span className="text-accent-foreground font-bold">digitaalisia ratkaisuja.</span>
                         </p>
-                        <p className="text-muted-foreground text-sm xl:text-md">Nykyään työskentelen itsenäisenä verkkosivusuunnittelijana koulun ohessa ja nautin siitä, että voin tuoda asiakkailleni käytännöllisiä ja näyttäviä ratkaisuja.</p>
+                        <p className="text-muted-foreground text-sm xl:text-md">Sivujen tekeminen on mulle mielekästä hommaa, ja opintojen ohella teen niitä asiakkaille – tarkoituksena tehdä toimivaa ja siistiä jälkeä ilman turhaa monimutkaisuutta.</p>
 
                         <div className="grid grid-cols-2 gap-3 pt-6 sm:gap-4">
                             <div className="space-y-3">

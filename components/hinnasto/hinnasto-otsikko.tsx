@@ -2,7 +2,7 @@ import { TextEffect } from '../motion-primitives/text-effect'
 
 export default function ContentSectionHinnasto() {
     return (
-        <section className="py-16 md:pt-32">
+        <section className="py-16 md:pt-32 bg-[linear-gradient(to_top,_white,_#bfdbfe)]">
             <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"></div>
                 <div className="mx-auto max-w-7xl px-6">
                     <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
@@ -14,6 +14,11 @@ export default function ContentSectionHinnasto() {
                             Hinnasto
                         </TextEffect>
                     </div>
+                </div>
+                <div className="mx-auto max-w-2xl pt-7 space-y-6 text-center text-sm md:text-base">
+                    <p>Tarjoan kaksi eritasoista verkkosivupakettia, jotka mukautetaan aina asiakkaan tarpeisiin ja toiveisiin. Hyödynnän suunnittelussa ja toteutuksessa moderneja työkaluja ja tekoälyä, joiden avulla sivuston rakentaminen käy tehokkaasti – kuitenkaan tinkimättä laadusta tai persoonallisuudesta.</p>
+                    <br></br>
+                    <p>Pienet sisällön muutokset veloitetaan erikseen 50€ per kerta. Isommista kokonaisuuksien muutoksista sovittava erikseen.</p>
                 </div>
         </section>
     )

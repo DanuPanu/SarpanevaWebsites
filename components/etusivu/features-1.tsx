@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 
 export default function Features() {
     return (
-        <section className="bg-zinc-50 py-16 md:py-32 dark:bg-transparent">
+        <section className="py-16 md:py-32">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-balance text-3xl md:text-4xl font-medium 2xl:text-5xl">Rakennettu tarpeitasi varten</h2>
@@ -17,11 +17,11 @@ export default function Features() {
                                 <Settings2 className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="font-medium text-lg">Täysin räätälöitävissä</h3>
+                            <h3 className="font-medium text-lg">Räätälöity juuri sinun tarpeisiisi</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="text-sm">Ei kahta samanlaista projektia. Tarjoan ratkaisuja, jotka mahdollistavat täydellisen mukautettavuuden, jotta jokainen yksityiskohta vastaa juuri sinun visiotasi.</p>
+                            <p className="text-sm">Ulkoasu, sisältö ja rakenne muokataan sinun toimialaasi ja asiakaskuntaasi ajatellen – ei valmista teemaa, vaan omaan tyyliin sopiva.</p>
                         </CardContent>
                     </Card>
 
@@ -31,11 +31,11 @@ export default function Features() {
                                 <Sparkles className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="font-medium text-lg">Valinnan vapaus</h3>
+                            <h3 className="font-medium text-lg">Helppo ja huoleton toteutus</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="text-sm">Päätät täysin verkkosivustosi sisällöstä, päivityksistä ja ulkoasusta sillä teen sivut alusta loppuun itse.</p>
+                            <p className="text-sm">Kerron selkeästi, mitä tapahtuu ja milloin. Sinun ei tarvitse ymmärtää teknologiaa – minä hoidan sen.</p>
                         </CardContent>
                     </Card>
 
@@ -45,11 +45,11 @@ export default function Features() {
                                 <Zap className="size-6" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="font-medium text-lg">Supernopea suorituskyky</h3>
+                            <h3 className="font-medium text-lg">Nopeat ja toimivat sivut</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="text-sm">Varmistan, että verkkosivustosi latautuu salamannopeasti käyttäen Next.js:ää, joka optimoi sivustosi suorituskyvyn. Tämä takaa nopean käyttökokemuksen ja vähentää odotusaikoja, mikä parantaa asiakastyytyväisyyttä ja hakukonesijoituksia.</p>
+                            <p className="text-sm">Rakennan sivut moderneilla teknologioilla (Next.js + Vercel), jotka takaavat nopean suorituskyvyn ja miellyttävän käyttökokemuksen – myös puhelimella.</p>
                         </CardContent>
                     </Card>
                 </div>
