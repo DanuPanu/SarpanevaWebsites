@@ -50,6 +50,18 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="w5c4H5nZV57UHsQg2pD4QhsEZUjIND5KOeeKUbG-Wps" />
+
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Sarpaneva Websites",
+              "url": "https://sarpanevawebsites.com"
+            }
+          `}
+        </script>
+
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
