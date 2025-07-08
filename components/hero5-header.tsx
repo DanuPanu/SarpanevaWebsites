@@ -55,7 +55,7 @@ export const HeroHeader = () => {
                                         <Link
                                             href={item.href}
                                             className={cn(
-                                                'text-muted-foreground hover:text-accent-foreground block duration-150',
+                                                'text-accent-foreground hover:text-accent-foreground block duration-150',
                                                 pathname === item.href && 'text-accent-foreground font-bold'
                                             )}>
                                             <span>{item.name}</span>

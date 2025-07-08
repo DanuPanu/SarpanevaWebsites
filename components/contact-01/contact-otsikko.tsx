@@ -2,7 +2,7 @@ import { TextEffect } from '../motion-primitives/text-effect'
 
 export default function YhteystiedotOtsikko() {
     return (
-        <section className="py-16 md:pt-32 bg-[linear-gradient(to_top,_white,_#bfdbfe)]">
+        <section className="py-16 md:pt-32">
             <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"></div>
             <div className="mx-auto max-w-7xl px-6">
                 <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
@@ -16,7 +16,6 @@ export default function YhteystiedotOtsikko() {
                 </div>
             </div>
             <div className='text-center flex flex-col items-center justify-center max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 pt-6'>
-                <h2 className="mt-5 text-3xl font-medium lg:text-4xl">Ota yhteyttä</h2>
                 <p className="mt-4 text-muted-foreground text-sm sm:text-base" style={{ maxWidth: "650px" }}>
                     Vastaan nopealla aikataululla sähköposteihin. Voit laittaa suoraan sähköpostia minulle tai täyttää alla olevan lomakkeen niin vastaan sinulle mahdollisimman pian. Voimme myös tavata kasvotusten sijainnistasi riippuen!
                 </p>

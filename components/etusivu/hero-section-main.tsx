@@ -30,16 +30,27 @@ export default function HeroSection() {
     return (
         <>
             <main className="overflow-hidden">
-                <section className="pb-12 md:pb-24 bg-[linear-gradient(to_top,_white,_#bfdbfe)]">
+                <section
+                    className="pb-12 md:pb-30 lg:pb-80 lg:pt-30 relative"
+                    style={{
+                        backgroundImage: `
+                            url('/emile-perron-xrVDYZRGdw4-unsplash.jpg')
+                        `,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat',
+                    }}
+                >
                     <div className="relative pt-24 md:pt-36">
                         <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"></div>
                         <div className="mx-auto max-w-7xl px-6">
-                            <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
+                            <div className="text-left sm:mx-auto lg:ml-0 lg:mt-0 text-white max-w-2xl">
                                 <TextEffect
                                     preset="fade-in-blur"
                                     speedSegment={0.3}
                                     as="h1"
-                                    className="mt-8 text-balance text-5xl md:text-7xl lg:mt-16 2xl:text-[5.25rem]">
+                                    className="mt-8 text-5xl md:text-7xl lg:mt-16 2xl:text-[5.25rem] text-white"
+                                >
                                     Sarpaneva Websites
                                 </TextEffect>
                                 <TextEffect
@@ -48,7 +59,8 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     delay={0.5}
                                     as="p"
-                                    className="mx-auto mt-8 max-w-2xl text-balance text-md md:text-lg">
+                                    className="mx-auto mt-8 max-w-2xl text-balance text-md md:text-lg text-white"
+                                >
                                     Modernit ja nopeat verkkosivut yrityksellesi - selkeä design, sujuva käyttökokemus ja tehokas toteutus alusta loppuun.
                                 </TextEffect>
 
@@ -64,17 +76,17 @@ export default function HeroSection() {
                                         },
                                         ...transitionVariants,
                                     }}
-                                    className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
+                                    className="mt-12 flex flex-col items-start justify-start gap-2 md:flex-row"
+                                >
                                     <div
                                         key={1}
-                                        className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
-
-                                        <Button asChild className='p-4 text-md md:text-lg'>
+                                        className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5"
+                                    >
+                                        <Button asChild className="p-4 text-md md:text-lg">
                                             <Link href="/yhteystiedot">
                                                 Ota yhteyttä
                                             </Link>
                                         </Button>
-
                                     </div>
                                 </AnimatedGroup>
                             </div>

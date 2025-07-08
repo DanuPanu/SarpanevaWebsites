@@ -4,8 +4,10 @@ import ContentSectionMinusta2 from "@/components/minusta/content-minusta2";
 export default function Minusta() {
     return (
         <>
-        <ContentSectionMinusta/>
-        <ContentSectionMinusta2/>
-       </>
+            <div className="bg-[#f8f5f0]">
+                <ContentSectionMinusta />
+                <ContentSectionMinusta2 />
+            </div >
+        </>
     );
 }

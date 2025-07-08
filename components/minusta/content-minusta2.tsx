@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function ContentSectionMinusta2() {
     return (
-        <section className="py-16 md:py-32">
+        <section className="py-16 md:py-32 bg-[#f8f5f0]">
             <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
                 <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl">Taustani</h2>
                 <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">

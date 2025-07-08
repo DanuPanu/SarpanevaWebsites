@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function ContentSection() {
     return (
-        <section className="py-16 md:py-32 bg-[radial-gradient(circle_at_top,_#f8fafc,_#e0f2fe_60%)]">
+        <section className="py-16 md:py-32 ">
             <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
-                <h2 className="relative z-10 max-w-xl text-3xl md:text-4xl font-medium 2xl:text-5xl">Verkkosivustosi kehittyy tehokkaasti ja innovatiivisesti</h2>
+                <h2 className="relative z-10 max-w-xl text-3xl md:text-4xl font-medium 2xl:text-5xl">Modernit nettisivut ilman turhaa säätöä</h2>
                 <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
                     <div className="relative space-y-4">
                         <p className="text-muted-foreground text-sm xl:text-md">
@@ -26,13 +26,13 @@ export default function ContentSection() {
                                     <Cpu className="size-4" />
                                     <h3 className="text-md font-medium">Voimakas ja skaalautuva</h3>
                                 </div>
-                                <p className="text-muted-foreground text-sm">Porjektini on rakennettu kestämään kasvua ja tarjoaa hyvät mahdollisuudet tulevaisuuden kehitykselle.</p>
+                                <p className="text-muted-foreground text-sm">Projektini on rakennettu kestämään kasvua ja tarjoaa hyvät mahdollisuudet tulevaisuuden kehitykselle.</p>
                             </div>
                         </div>
                     </div>
                     <div className="relative mt-6 sm:mt-0">
-                        <div className="bg-linear-to-b aspect-67/34 relative rounded-2xl from-zinc-300 to-transparent p-px dark:from-zinc-700">
-                            <Image src="/office.jpg" className="rounded-[15px] shadow dark:hidden" alt="example illustration" width={1206} height={612} />
+                        <div className=" relative rounded-2xl">
+                            <Image src="/VercelNextjs.jpg" className="rounded-[15px] dark:hidden" alt="example illustration" width={300} height={300} />
                         </div>
                     </div>
                 </div>

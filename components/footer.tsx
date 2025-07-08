@@ -3,7 +3,7 @@ import Link from 'next/link'
 const links = [
     {
         title: 'Etusivu',
-        href: '/minusta',
+        href: '/',
     },
     {
         title: 'Minusta',
@@ -21,7 +21,7 @@ const links = [
 
 export default function FooterSection() {
     return (
-        <footer className="bg-zinc-500 text-white py-2 md:py-5">
+        <footer className="bg-zinc-900 text-white py-2 md:py-5">
 
             <div className="mx-auto max-w-5xl px-6 flex items-center justify-between">
                 {/* Logo vasemmalle */}
