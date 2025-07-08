@@ -51,16 +51,17 @@ export default function RootLayout({
       <head>
         <meta name="google-site-verification" content="w5c4H5nZV57UHsQg2pD4QhsEZUjIND5KOeeKUbG-Wps" />
 
-        <script type="application/ld+json">
-          {`
-            {
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "Sarpaneva Websites",
-              "url": "https://sarpanevawebsites.com"
-            }
-          `}
-        </script>
+              name: "Sarpaneva Websites",
+              url: "https://sarpanevawebsites.com",
+            }),
+          }}
+        />
 
       </head>
       <body
