@@ -44,13 +44,10 @@ export default function Hinnasto() {
                     </Card>
 
                     <Card className="flex flex-col card-hover md:basis-1/2 md:flex-grow bg-[#757a7e] text-white"
-                        // style={{
-                        //     background: 'linear-gradient(180deg, #4d4d4d 0%, #18181b 20%)'
-                        // }}
                         >
                         <CardHeader>
                             <CardTitle className="font-medium">Laajemmat sivut</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">699€ & 20€/kk<span className='text-sm'>sis alv</span></span>
+                            <span className="my-3 block text-2xl font-semibold">699€ & 20€/kk <span className='text-sm'>sis alv</span></span>
                             <CardDescription className="text-sm text-white">2-5 sivua</CardDescription>
                         </CardHeader>
 
