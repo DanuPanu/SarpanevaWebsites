@@ -55,7 +55,7 @@ export default function Hinnasto() {
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Kaikki pienestä sivusta', 'Mahdollisuus laajempaan muokkaukseen', 'Laajempi SEO-optimointi', 'Yhteydenottolomake'].map((item, index) => (
+                                {['Kaikki landing pagesta', 'Mahdollisuus laajempaan muokkaukseen', 'Laajempi SEO-optimointi', 'Yhteydenottolomake'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-2">
                                         <Check className="size-3" />
                                         {item}

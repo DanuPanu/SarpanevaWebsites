@@ -2,7 +2,7 @@ import { TextEffect } from '../motion-primitives/text-effect'
 
 export default function ContentSectionHinnasto() {
     return (
-        <section className="px-3 py-16 md:pt-32 bg-[#f8f5f0] ">
+        <section className="px-5 py-16 md:pt-32 bg-[#f8f5f0] ">
             <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"></div>
                 <div className="mx-auto max-w-7xl px-6">
                     <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
