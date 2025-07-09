@@ -23,7 +23,7 @@ export default function Hinnasto() {
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Moderni ja responsiivinen design', 'Hosting', 'Yksi selkeä sivu', 'Perus SEO-optimointi', 'Nopea latausaika'].map((item, index) => (
+                                {['Moderni ja responsiivinen design', 'Hosting', 'Perus SEO-optimointi', 'Nopea latausaika', 'Google Maps integraatio'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-2">
                                         <Check className="size-3" />
                                         {item}
@@ -43,7 +43,7 @@ export default function Hinnasto() {
                         </CardFooter>
                     </Card>
 
-                    <Card className="flex flex-col card-hover md:basis-1/2 md:flex-grow bg-[#757a7e] text-white"
+                    <Card className="flex flex-col card-hover md:basis-1/2 md:flex-grow bg-[#757a7e] text-white mb-5 md:mb-0"
                         >
                         <CardHeader>
                             <CardTitle className="font-medium">Laajemmat sivut</CardTitle>
@@ -55,7 +55,7 @@ export default function Hinnasto() {
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Kaikki pienestä sivusta', 'Mahdollisuus laajempaan muokkaukseen', 'Laajempi SEO-optimointi', 'Google Maps integraatio'].map((item, index) => (
+                                {['Kaikki pienestä sivusta', 'Mahdollisuus laajempaan muokkaukseen', 'Laajempi SEO-optimointi', 'Yhteydenottolomake'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-2">
                                         <Check className="size-3" />
                                         {item}

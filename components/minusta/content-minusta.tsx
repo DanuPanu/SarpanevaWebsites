@@ -20,7 +20,7 @@ export default function ContentSectionMinusta() {
                 <TextEffect className="text-xl md:text-3xl font-medium" per="char" preset="fade" speedReveal={1.1}>
                     Hei! Olen Daniel, tietojenkäsittelytieteen opiskelija ja rakennan verkkosivuja pienyrittäjille ja yrityksille opintojeni ohella.
                 </TextEffect>
-                    <div className="space-y-6 text-md xl:text-xl">
+                    <div className="space-y-6 text-md xl:text-xl text-muted-foreground">
                         <p>Rakennan selkeitä, tyylikkäitä ja tehokkaita verkkosivuja, jotka eivät vain näytä hyvältä, vaan myös tukevat liiketoimintaasi. Suunnittelussani panostan nopeuteen, käytettävyyteen ja hakukoneoptimointiin, jotta verkkosivusi toimivat sujuvasti kaikilla laitteilla.</p>
                     </div>
                 </div>
