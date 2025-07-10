@@ -18,7 +18,7 @@ export default function ContentSectionHinnasto() {
                 <div className="text-muted-foreground mx-auto max-w-2xl pt-7 space-y-6 text-center text-sm md:text-base">
                     <p>Tarjoan kaksi eritasoista verkkosivupakettia, jotka mukautetaan aina asiakkaan tarpeisiin ja toiveisiin. Hyödynnän suunnittelussa ja toteutuksessa moderneja työkaluja ja tekoälyä, joiden avulla sivuston rakentaminen käy tehokkaasti – kuitenkaan tinkimättä laadusta tai persoonallisuudesta.</p>
                     <br></br>
-                    <p>Pienet sisällön muutokset veloitetaan erikseen 50€ per kerta. Isommista kokonaisuuksien muutoksista sovittava erikseen.</p>
+                    <p>Pientä suuremmat sisällön muutokset veloitetaan erikseen 50€ per kerta. Isommista kokonaisuuksien muutoksista sovittava erikseen.</p>
                 </div>
         </section>
     )

@@ -15,7 +15,7 @@ export default function Hinnasto() {
                     >
                         <CardHeader>
                             <CardTitle className="font-medium">Landing page</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">499€ & 20€/kk <span className='text-sm'>sis alv</span></span>
+                            <span className="my-3 block text-2xl font-semibold">499€ + 20€/kk <span className='text-sm'>sis alv</span></span>
                             <CardDescription className="text-sm text-white">1 sivuinen</CardDescription>
                         </CardHeader>
 
@@ -23,7 +23,7 @@ export default function Hinnasto() {
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Moderni ja responsiivinen design', 'Hosting', 'Perus SEO-optimointi', 'Nopea latausaika', 'Google Maps integraatio'].map((item, index) => (
+                                {['Moderni ja responsiivinen design', 'Hosting', 'Perus SEO-optimointi', 'Nopea latausaika', 'Google Maps integraatio', 'Yhden pienen sisällön muutoksen kuukaudessa'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-2">
                                         <Check className="size-3" />
                                         {item}
@@ -47,7 +47,7 @@ export default function Hinnasto() {
                         >
                         <CardHeader>
                             <CardTitle className="font-medium">Laajemmat sivut</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">699€ & 20€/kk <span className='text-sm'>sis alv</span></span>
+                            <span className="my-3 block text-2xl font-semibold">699€ + 20€/kk <span className='text-sm'>sis alv</span></span>
                             <CardDescription className="text-sm text-white">2-5 sivua</CardDescription>
                         </CardHeader>
 
@@ -55,7 +55,7 @@ export default function Hinnasto() {
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Kaikki landing pagesta', 'Mahdollisuus laajempaan muokkaukseen', 'Laajempi SEO-optimointi', 'Yhteydenottolomake'].map((item, index) => (
+                                {['Kaikki landing pagesta', 'Mahdollisuus laajempaan muokkaukseen', 'Laajempi SEO-optimointi', 'Yhteydenottolomake', 'Yhden pienen sisällön muutoksen kuukaudessa'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-2">
                                         <Check className="size-3" />
                                         {item}
