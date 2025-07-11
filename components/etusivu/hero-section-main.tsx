@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { TextEffect } from '@/components/motion-primitives/text-effect'
 import { AnimatedGroup } from '@/components/motion-primitives/animated-group'
@@ -31,18 +32,15 @@ export default function HeroSection() {
         <>
             <main className="overflow-hidden">
                 <section
-                    className="pb-12 md:pb-30 lg:pb-80 lg:pt-30 relative"
-                    style={{
-                        backgroundImage: `
-                            url('/emile-perron-xrVDYZRGdw4-unsplash.jpg')
-                        `,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        backgroundRepeat: 'no-repeat',
-                    }}
-                >
+                    className="pb-12 md:pb-30 lg:pb-80 lg:pt-30 relative">
+                    <Image
+                        src="/emile-perron-xrVDYZRGdw4-unsplash.jpg"
+                        alt="Taustakuva"
+                        fill
+                        priority
+                        className="object-cover object-center -z-10"
+                    />
                     <div className="relative pt-24 md:pt-36">
-                        <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"></div>
                         <div className="mx-auto max-w-7xl px-6">
                             <div className="text-left sm:mx-auto lg:ml-0 lg:mt-0 text-white max-w-2xl">
                                 <TextEffect
