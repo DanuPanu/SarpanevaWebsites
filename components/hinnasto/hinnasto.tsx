@@ -15,7 +15,7 @@ export default function Hinnasto() {
                     >
                         <CardHeader>
                             <CardTitle className="font-medium">Landing page</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">499€ + 20€/kk <span className='text-sm'>sis alv</span></span>
+                            <span className="my-3 block text-2xl font-semibold">499€ <span className='text-sm'>sis alv</span></span>
                             <CardDescription className="text-sm text-white">1 sivuinen</CardDescription>
                         </CardHeader>
 
@@ -47,7 +47,7 @@ export default function Hinnasto() {
                         >
                         <CardHeader>
                             <CardTitle className="font-medium">Laajemmat sivut</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">699€ + 20€/kk <span className='text-sm'>sis alv</span></span>
+                            <span className="my-3 block text-2xl font-semibold">699€ <span className='text-sm'>sis alv</span></span>
                             <CardDescription className="text-sm text-white">2-5 sivua</CardDescription>
                         </CardHeader>
 
