@@ -15,15 +15,20 @@ export default function Hinnasto() {
                     >
                         <CardHeader>
                             <CardTitle className="font-medium">Landing page</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">499€ <span className='text-sm'>sis alv</span></span>
-                            <CardDescription className="text-sm text-white">1 sivuinen</CardDescription>
+                            <span className="my-3 block text-2xl font-semibold">
+                                499€ <span className='text-sm'>sis. alv</span>
+                            </span>
+                            <span className="block text-sm text-white italic mb-2">
+                                + 25€/kk ylläpito & hosting
+                            </span>
                         </CardHeader>
+
 
                         <CardContent className="space-y-4">
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Moderni ja responsiivinen design', 'Hosting', 'Perus SEO-optimointi', 'Nopea latausaika', 'Google Maps integraatio', 'Yksi pieni sisällön muutos kuukaudessa'].map((item, index) => (
+                                {['1-sivuinen', 'Moderni ja responsiivinen design', 'Hosting', 'Perus SEO-optimointi', 'Nopea latausaika', 'Google Maps integraatio', 'Yksi pieni sisällön muutos kuukaudessa'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-2">
                                         <Check className="size-3" />
                                         {item}
@@ -50,14 +55,16 @@ export default function Hinnasto() {
                         <CardHeader>
                             <CardTitle className="font-medium">Laajempi sivupaketti</CardTitle>
                             <span className="my-3 block text-2xl font-semibold">699€ <span className='text-sm'>sis alv</span></span>
-                            <CardDescription className="text-sm text-white">2-6 sivua</CardDescription>
+                            <span className="block text-sm text-white italic mb-2">
+                                + 25€/kk ylläpito & hosting
+                            </span>
                         </CardHeader>
 
                         <CardContent className="space-y-4">
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Kaikki landing pagesta', 'Mahdollisuus laajempaan muokkaukseen', 'Laajempi SEO-optimointi', 'Yhteydenottolomake'].map((item, index) => (
+                                {['2-6 sivua', 'Kaikki landing pagesta', 'Mahdollisuus laajempaan muokkaukseen', 'Laajempi SEO-optimointi', 'Yhteydenottolomake'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-2">
                                         <Check className="size-3" />
                                         {item}
@@ -81,14 +88,16 @@ export default function Hinnasto() {
                         <CardHeader>
                             <CardTitle className="font-medium">Premium sivupaketti</CardTitle>
                             <span className="my-3 block text-2xl font-semibold">999€ <span className='text-sm'>sis alv</span></span>
-                            <CardDescription className="text-sm text-white">7+ sivua & räätälöidyt ominaisuudet</CardDescription>
+                            <span className="block text-sm text-white italic mb-2">
+                                + 25€/kk ylläpito & hosting
+                            </span>
                         </CardHeader>
 
                         <CardContent className="space-y-4">
                             <hr className="border-dashed" />
 
                             <ul className="list-outside space-y-3 text-sm">
-                                {['Kaikki laajemmista sivuista', 'Räätälöidyt integraatiot', 'Kattava SEO-optimointi'].map((item, index) => (
+                                {['7+ sivua', 'Kaikki laajemmista sivuista', 'Räätälöidyt integraatiot', 'Kattava SEO-optimointi'].map((item, index) => (
                                     <li key={index} className="flex items-center gap-2">
                                         <Check className="size-3" />
                                         {item}
